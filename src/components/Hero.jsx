@@ -118,7 +118,7 @@ const Hero = () => {
               </div>
             </VideoPreview>
           </div>
-
+          
           <video
             ref={nextVdRef}
             src={getVideoSrc(currentIndex)}
@@ -139,11 +139,11 @@ const Hero = () => {
             onLoadedData={handleVideoLoad}
           />
         </div>
-
+              
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
           One<b>P</b>iece
         </h1>
-
+            
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
@@ -166,7 +166,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+      <h1 className="special-font hero-heading absolute top-24 left-9 text-black">
+        Welc<b>O</b><b>m</b>e<br/> T<b>O</b> The<br/>World <b>O</b>F
+      </h1>
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
         One<b>P</b>iece
       </h1>
